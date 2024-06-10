@@ -1,3 +1,12 @@
+# [3.0.0] - Jul 25, 2023
+- Bumps dependencies to latest version.
+
+# [2.2.1] - Feb 14, 2023
+- Fix redirection issue after bank payments.
+
+# [2.2.0] - Feb 9, 2023
+- Upgraded dependencies.
+
 # [2.1.0] - May 18, 2022
 - (**BREAKING CHANGE**) Migrated to Flutter 3
 - Upgraded dependencies to latest version.
