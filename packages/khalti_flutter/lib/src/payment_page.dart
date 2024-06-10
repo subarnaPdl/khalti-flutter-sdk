@@ -58,6 +58,7 @@ class PaymentPage extends StatelessWidget {
       isDark: isDark,
       child: Theme(
         data: ThemeData.from(
+          useMaterial3: false,
           colorScheme: colorScheme,
           textTheme: const TextTheme(
             labelLarge: TextStyle(fontWeight: FontWeight.bold, fontSize: 16),
@@ -168,7 +169,8 @@ class _MainPage extends StatelessWidget {
       ),
       elevatedButtonTheme: ElevatedButtonThemeData(
         style: ElevatedButton.styleFrom(
-          foregroundColor: Colors.white, minimumSize: const Size(64, 50),
+          foregroundColor: Colors.white,
+          minimumSize: const Size(64, 50),
         ),
       ),
     );
